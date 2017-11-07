@@ -1,10 +1,6 @@
 class Streamr {
     constructor () {
-        this.streams = [{
-            id: 'xyz',
-            clients: ['a'],
-            url: null
-        }];
+        this.streams = [];
     }
 
     getStreams () {
